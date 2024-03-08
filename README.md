@@ -1,8 +1,7 @@
 # IsPositive
 
-[![Build Status](https://github.com/putianyi889/IsPositive.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/putianyi889/IsPositive.jl/actions/workflows/CI.yml?query=branch%3Amaster)
+A 4-line mini package motivated by https://github.com/JuliaLang/julia/issues/35067
 
-A 4-line mini package:
 ```julia
 ispositive(x) = !isnonnegative(x)
 isnegative(x) = signbit(x) && !iszero(x)
