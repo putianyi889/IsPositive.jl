@@ -1,13 +1,7 @@
 name = "IsPositive"
 uuid = "b2621e3c-9d78-409a-a956-21e401f7880f"
 authors = ["Tianyi Pu <912396513@qq.com> and contributors"]
-version = "1.0.0-DEV"
+version = "1.0.0"
 
 [compat]
 julia = "1"
-
-[extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-[targets]
-test = ["Test"]
