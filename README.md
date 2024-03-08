@@ -1,6 +1,6 @@
 # IsPositive
 
-A 4-line mini package motivated by https://github.com/JuliaLang/julia/issues/35067
+A 4-line package motivated by https://github.com/JuliaLang/julia/issues/35067
 
 ```julia
 ispositive(x) = !isnonnegative(x)
